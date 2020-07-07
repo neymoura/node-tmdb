@@ -1,6 +1,6 @@
 {
   "name": "tmdb",
-  "version": "v0.1-pre-release",
+  "version": "v0.0.1-pre-release",
   "description": "A very lightweight and limited, NodeJS wrapper for the TMDB Api.",
   "main": "index.js",
   "scripts": {
