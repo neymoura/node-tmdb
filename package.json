@@ -1,12 +1,12 @@
 {
   "name": "tmdb",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "version": "v0.1-pre-release",
+  "description": "A very lightweight and limited, NodeJS wrapper for the TMDB Api.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ney Moura",
   "license": "ISC",
   "dependencies": {
     "dotenv": "8.2.0"
