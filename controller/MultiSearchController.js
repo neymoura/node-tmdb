@@ -3,14 +3,10 @@ const Content = require('../model/Content');
 
 const MultiSearchController = {
 
-    search: function(query, callback) {
-
-        service.search(query, (data) => {
-            const rawContent = data.results[0];
-            const content = Content.createFromMultiSearch(rawContent);
-            callback(content);
-        });
-        
+    search: async function(query) {
+        const data = await service.search(query);
+        const rawContent = data.results[0];
+        return Content.createFromMultiSearch(rawContent);
     }
 
 }
